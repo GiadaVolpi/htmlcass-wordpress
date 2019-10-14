@@ -79,7 +79,16 @@ main {
     background-position: center;
 }
 
+/*
+il contenuto del MAIN non viene bloccato
 main:after {
+    content: attr();
+    display: table;
+    clear: both;
+}
+*/
+
+aside:after {
     content: "";
     display: table;
     clear: both;
@@ -108,11 +117,12 @@ p {
 }
 
 a {
-    color: black;
+    color: #774c20;
+    line-height: 25px;
 }
 
 a:visited {
-    color: #774c20;
+    color: black;
 }
 
 .left {
@@ -124,7 +134,6 @@ a:visited {
 .content {
     width: 50%;
     float: left;
-    margin: auto;
     padding: 15px;
 }
 
@@ -132,6 +141,11 @@ a:visited {
     width: 30%;
     float: left;
     padding: 15px;
+}
+
+.int-design {
+    margin-bottom: 10px;
+    overflow: auto;
 }
 
 footer {
