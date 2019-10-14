@@ -27,12 +27,11 @@ header {
 
 #header-top {
     height: 80%;
-    border: 2px solid white;
 }
 
 div>p{
     font-family: 'PT Sans', sans-serif;
-    color: black;
+    color: #774c20;
     font-size: 50px;
     position: relative;
     text-align: center;
@@ -41,7 +40,34 @@ div>p{
 
 #header-bottom {
     height: 20%;
-    border: 2px solid white;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
+}
+
+ul,li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #774c20;
+    text-align: center;
+    width: 19%;
+    border-bottom: 2px solid #774c20;
+    margin: 3px;
+    line-height: 50px;
+    position: relative;
+}
+
+li:hover{
+    visibility: hidden;
 }
 
 main {
