@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/29/15/24/texture-1068871_960_720.jpg");
+    height: 300px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#header-top {
+    height: 80%;
+    border: 2px solid white;
+}
+
+div>p{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    top: calc((100% - 50px) / 2);
+}
+
+#header-bottom {
+    height: 20%;
+    border: 2px solid white;
+}
+
+main {
+    height: 550px;
+    margin-top: 10px;
+    background-image: url("https://www.donnamoderna.com/wp-content/uploads/2019/02/cover_trend-design-2019-830x625.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    width: 25%;
+    height: 400px;
+    background-color: purple;
+    float: left;
+}
+
+.center {
+    width: 45%;
+    height: 400px;
+    background-color: blue;
+    float: left;
+    margin: auto;
+}
+
+.right {
+    width: 30%;
+    height: 400px;
+    background-color: orange;
+    float: left;
+}
+
+footer {
+    background-color: darkred;
+    height: 90px;
+}
