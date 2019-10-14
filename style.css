@@ -29,7 +29,7 @@ header {
     height: 80%;
 }
 
-div>p{
+div>h1{
     font-family: 'PT Sans', sans-serif;
     color: #774c20;
     font-size: 50px;
@@ -78,14 +78,26 @@ main {
     background-position: center;
 }
 
+h2 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 18px;
+}
+
+
 .left {
     width: 25%;
     height: 400px;
     background-color: purple;
     float: left;
+    padding: 15px;
 }
 
-.center {
+.content {
     width: 45%;
     height: 400px;
     background-color: blue;
