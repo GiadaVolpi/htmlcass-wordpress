@@ -16,17 +16,17 @@ html {
 
 header {
     background-image: url("https://cdn.pixabay.com/photo/2015/11/29/15/24/texture-1068871_960_720.jpg");
-    height: 300px;
+    height: 200px;
 }
 
 .overlay {
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #header-top {
-    height: 80%;
+    height: 70%;
 }
 
 div>h1{
@@ -71,48 +71,70 @@ li:hover{
 }
 
 main {
-    height: 550px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    height: 660px;
     background-image: url("https://www.donnamoderna.com/wp-content/uploads/2019/02/cover_trend-design-2019-830x625.jpg");
     background-size: cover;
     background-position: center;
 }
 
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.overlay {
+    padding: 0 10px 10px 10px;
+}
+
 h2 {
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 18px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+h3 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 p {
     font-family: 'Liu Jian Mao Cao', cursive;
     font-size: 18px;
+    text-align: justify;
 }
 
+a {
+    color: black;
+}
+
+a:visited {
+    color: #774c20;
+}
 
 .left {
-    width: 25%;
-    height: 400px;
-    background-color: purple;
+    width: 20%;
     float: left;
     padding: 15px;
 }
 
 .content {
-    width: 45%;
-    height: 400px;
-    background-color: blue;
+    width: 50%;
     float: left;
     margin: auto;
+    padding: 15px;
 }
 
 .right {
     width: 30%;
-    height: 400px;
-    background-color: orange;
     float: left;
+    padding: 15px;
 }
 
 footer {
-    background-color: darkred;
+    background-image: url("https://cdn.pixabay.com/photo/2015/11/29/15/24/texture-1068871_960_720.jpg");
     height: 90px;
 }
